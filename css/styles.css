@@ -1,0 +1,75 @@
+body {
+  font-family: Nunito, serif;
+}
+
+h1 {
+  margin-top: 40px;
+}
+
+.contacts {
+  background-color: #191919;
+  margin-bottom: 40px;
+  vertical-align: center;
+  color: white;
+}
+
+.contacts img {
+  max-width: 600px;
+}
+
+.hobby {
+  text-align: center;
+  background-color: #fdf5f6;
+}
+
+.hobby img {
+  max-height: 300px;
+}
+
+.hobby ul {
+  list-style-type: none;
+  font-size: large;
+}
+
+.hobby li {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+#name {
+  margin-top: 0;
+}
+
+@media print {
+  a {
+    color: black;
+  }
+}
+table {
+  margin-top: 40px;
+}
+
+.projects, .role, .company, .year {
+  color: #dc3545;
+}
+
+.year {
+  font-family: Indie Flower, serif;
+  font-size: 24px;
+}
+
+.company {
+  font-weight: bold;
+  min-width: 150px;
+}
+
+.role {
+  min-width: 200px;
+}
+
+.projects {
+  font-family: Indie Flower, serif;
+  font-size: 24px;
+}
+
+/*# sourceMappingURL=styles.css.map */

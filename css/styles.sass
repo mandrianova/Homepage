@@ -1,0 +1,65 @@
+$font-general: Nunito,serif
+$margin-x: 40px
+
+body
+  font-family: $font-general
+
+h1
+  margin-top: $margin-x
+
+.contacts
+  background-color: #191919
+  margin-bottom: $margin-x
+  vertical-align: center
+  color: white
+
+.contacts img
+  max-width: 600px
+
+.hobby
+  text-align: center
+  background-color: #fdf5f6
+
+.hobby img
+  max-height: 300px
+
+.hobby ul
+  list-style-type: none
+  font-size: large
+
+.hobby li
+  margin-top: $margin-x
+  margin-bottom: $margin-x
+
+#name
+  margin-top: 0
+
+@media print
+  a
+    color: black
+
+table
+  margin-top: $margin-x
+
+
+%table-col
+  color: #dc3545
+
+.year
+  @extend %table-col
+  font-family: Indie Flower, serif
+  font-size: 24px
+
+.company
+  @extend %table-col
+  font-weight: bold
+  min-width: 150px
+
+.role
+  @extend %table-col
+  min-width: 200px
+
+.projects
+  @extend %table-col
+  font-family: Indie Flower, serif
+  font-size: 24px
