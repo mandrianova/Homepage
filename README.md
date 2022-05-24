@@ -2,8 +2,7 @@
 
 Web Programming with Python and JavaScript.
 In that project I introduced some information about myself for other students and colleagues.
-
-[The project published on Heroku](https://homepage-mandrianova.herokuapp.com/templates/index.html)
+dex.html)
 
 [About the project on YouTube](https://www.youtube.com/watch?v=8IpPsb8APwU)
 
